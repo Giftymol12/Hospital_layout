@@ -1,0 +1,315 @@
+* {
+    margin: 0;
+    
+}
+body {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.image {
+    height: 530px;
+    display: flex;
+    background: url(./Images/doc.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-style: inset;
+    align-items: flex-end;
+    flex-direction: column;
+}
+.heading {
+    color: rgb(61, 61, 126);
+    margin: 180px;
+}
+.button2 {
+    background-color: #afabeb;
+    color: white;
+    text-align: center;
+    font-size: 12px;
+    cursor: grab;
+}
+
+.cards {
+    display: flex;
+    margin: -80px 20px 20px 20px;
+    
+    justify-content: center;
+    
+}
+.bg1 {
+    background-color: rgb(221 220 220);
+}
+.bg2 {
+    background-color: rgb(183 180 180);
+
+}
+.bg3 {
+    background-color: gray;
+}
+.card1{
+display: flex;
+flex-direction: column;
+align-items: center;
+width: 30%;
+}
+.card1 img{
+    height: 70px;
+}
+.cards h3,.cards p{
+  
+    text-align: center;
+    padding: 10px 20px;
+}
+.services {
+    text-align: center;
+}
+.middle {
+    display: flex;
+    margin-left:60px ; 
+}
+.col1,.col2{
+    padding-top: 72px;;
+    width: 50%;
+}
+.col11{
+    display: flex;
+    padding-bottom: 50px;
+    text-align: left;
+    gap:2rem;
+}
+
+.col11 img{
+    height:40px;
+    padding-left: 20px;
+}
+.col2 img{
+    width:50%;
+    padding-bottom: 90px;
+}
+.dep{
+    display: flex;
+    flex-direction: column;
+    gap:2rem;
+    color:white;
+    text-align: center;
+
+}
+.items{
+    justify-content: center;
+    display: flex;
+    gap: 5rem;
+    
+    }
+
+.heart{
+    display: flex;
+    padding:2rem;
+   
+   
+}
+.part1{
+    width: 40%;
+    margin: 65px;
+}
+
+.part2{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+   
+}
+.part2 h3{
+    padding-bottom: 10px;
+}
+.desc{
+    width:100%;
+    height:50%;
+    
+}
+.desc p{
+    text-align: justify;
+  
+}
+
+.title{
+    text-align: center;
+    padding:20px;
+}
+.cardsnew{
+    display: flex;
+    justify-content: center;
+    gap:2rem;
+    
+}
+.c1{
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    align-items: center;
+    width: 30%;
+    margin-bottom: 2rem;
+}
+.c1 img{
+    width: 100%;
+    height:150px;
+   
+}
+.desc h3,.desc a{
+    text-align: left;
+    padding:10px;
+   
+}
+.globe{
+   width: 100%;
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+    
+}
+.globe h3,.globe p{
+    color: white;
+    text-align: center;
+    padding-top: 15px;
+}
+.globe img{
+   
+    width: 40%;
+
+}
+.sphead{
+    text-align: center;
+    padding-top: 20px;
+}
+.full{
+  
+    display: flex;
+ justify-content: center;
+}
+.doctors{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width:30%;
+}
+.doctors img{
+    width:50%;
+}
+.details{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap:1rem;
+    margin-top: 10px;
+   
+}
+.details input{
+    width:30%;
+    height:60px;
+    background-color: #4c4747;
+}
+.details textarea{
+    width:30%;
+    height:100px;
+    background-color: #4c4747;
+}
+.last h3,.last p{
+    color: white;
+    text-align: center;
+    padding-top: 10px;
+}
+
+button{
+    background-color:black;
+    color:white;
+    margin-bottom: 25px;
+}
+                                                            /*mediaqueries  */
+@media screen and (max-width:480px) {
+    .cards{
+        display: flex;
+        flex-direction: column;
+    }
+    .card1{
+        width: 100%;
+    }
+    .cards img{
+        align-items: center;
+    }
+    .middle{
+        flex-direction: column;
+        margin-left: 0;
+    }
+    .col1{
+        padding-top: 23px;
+    }
+    .col11{
+        flex-direction: column;
+    }
+    .col2 img{
+        width: 100%;
+    }
+    .dep{
+        padding: 20px;
+    }
+    .items{
+        height: 0%;
+       display: block;
+    }
+    .part1{
+        margin:2px;
+    }
+    #imbp{
+        width: 100%;
+        
+        height: auto;
+    }
+    .part2{
+        display: flex;
+        flex-direction: column;
+       text-align:justify;
+      
+    }
+    .cardsnew{
+        flex-direction: column;
+    }
+    .c1{
+        display: contents;
+    }
+    .c1 img{
+        width:70%;
+    }
+    .globe img{
+        margin: 0;
+        width: 295px;
+    }
+   
+    .full{
+        flex-direction: column;
+        align-items: center;
+    }
+}
+@media (max-width:1080px){
+    .heart{
+        flex-direction: column;
+    align-items: center;
+
+    }
+    .cardsnew{
+        flex-direction: column;
+        align-items: center;
+        }
+        .c1{
+            width:30%;
+        }
+  
+}
+@media(max-width:766px){
+    .middle{
+        flex-direction: column-reverse;
+        align-items: center;
+    }
+    .items{
+        flex-direction: column;
+        align-items: center;
+      
+    }
+    
+}
